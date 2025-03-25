@@ -227,108 +227,88 @@ Select the best answer.
 
 Correct: We do not need to apply the central limit theorem because our original data is normally distributed, and the sampling distribution will be approximately normally distributed, regardless of sample size.
 
-### Knowledge Check
 
-1. Change the starter code to create an empty list called packing_list.
-1. Insert the string shirt into packing_list. Then, save packing_list to a new variable called packing_list_2.
-1. Insert the string pants into packing_list_2. Also, save the result as a new variable called packing_list_3.
-1. Insert the string socks into packing_list.
-1. Print each list on a new line. If you’ve done this exercise correctly, their values should all be identical.
-
-Hint: Write out your code using repl.it before pasting it into the box below so that you can practice reading the errors that Python typically gives you.
-
-Enter your response using Python 3.6.
-
-[Open Code Response]
-
-answer:
-
-```python
-packing_list = []
-packing_list.append('shirt')
-
-packing_list_2 = packing_list
-packing_list_2.append('pants')
-
-packing_list_3 = packing_list_2
-
-packing_list.append('socks')
-
-print(packing_list)
-print(packing_list_2)
-print(packing_list_3)
-```
+## Rules of Probability
 
 ### Knowledge Check
 
-Suppose we have a set containing categories of houses. How might we determine the number of unique categories?
-
-For example:
-
-```python
-house_categories = {'Single-Family Home', 'Condo', 'Duplex'}
-```
+Does `my_set_1.union(my_set_2)` yield the same result as `my_set_2.union(my_set_1)` ?
 
 Select the best answer.
 
-- house_categories.count()
-- len(list(house_categories))
-- set(house_categories)
-- len(house_categories) (correct)
+- Yes, it does! (correct)
+- No, it doesn't!
 
-Hint: Sets only contain unique values, so finding the number of unique items in a set is as easy as computing the length of the set.
+Correct: Set union is order-invariant (symmetric).
 
 ### Knowledge Check
 
-What would be the result of evaluating the following code?
-
-```python
-len({3, 2, 9, 5, 3, 6, 2}) + len([3, 2, 9, 5, 3, 6, 2])
-```
+Does `my_set_1.intersection(my_set_2)` yield the same result as `my_set_2.intersection(my_set_1)` ?
 
 Select the best answer.
 
-- 7
-- 10
-- 12
-- 14
+- Yes, it does! (correct)
+- No, it doesn't!
 
-Hint: A set does not contain duplicate values. Therefore, the set contains a total of five unique values, while the list contains a total of seven values. Summed together, this equals 12.
+Correct: Set intersection is order-invariant (symmetric).
 
-## Control Flow in Python
+## Knowledge Check
 
-### Knowledge Check
-
-Which of the following would be a good use of the while loop when we don't know the number of iterations in advance?
+Which of the following are *true* about the rules of probability?
 
 Select all that apply.
 
-- Loop while less than 33 milliseconds have elapsed, then continue.
-- Loop while we have not received the entire downloaded file.
-- Loop until a new random number between 0 and 1 is greater than 0.9
-- Loop through each element of a Python list.
+- Correct: An event's probability must be greater than or equal to zero.
+- Incorrect: The total probability of an outcome must be greater than one.
+- Correct: The probability of a union of two mutually exclusive events is the sum of the probabilities of the individual events.
+- Incorrect: The probability of a union of two mutually exclusive events is the product of the probabilities of the individual events.
 
-Correct: Python lists have a finite size, which we know in advance. (We'll cover looping through them using the for loop in the next section). In video games, a while loop is often used to wait until 33 milliseconds have elapse. This guarantees an exact 30 frames per second. We don’t know the number of iterations in advance here because execution speed can vary between computers — even on a single processor.
+Correct: There are three axioms of probability:
 
-### Knowledge Check
+1. The probability of an event cannot be negative.
+2. The probability of an outcome occurring in the sample space is one.
+3. The probability of a union of two events is the sum of the probabilities of the individual events.
 
-What is stored in x after evaluating the following code?
+## Knowledge Check
 
-```python
-x = 1
-
-while x < 10:
-    x = x * 2
-```
+What is the marginal probability that you will be selected for a bag search (and risk losing your jar of peanut butter)?
 
 Select the best answer.
 
-- The largest power of 2 less than 10
-- 16 (correct)
-- 10
-- The first even number greater than 10
+- 5.7% (correct)
+- 8.6%
+- 17.1%
+- 2.9%
 
-Hint: In each iteration x is doubled and we only exit the while loop if x is at least 10. Therefore, when we exit the loop x will equal 16.
+Correct: From our sample group of 35 people, two were searched, so we'd have 2/35 = 0.057
+
+## Knowledge Check
+
+What is joint probability?
+
+Select the best answer.
+
+- The likelihood of a single random event occurring.
+- The likelihood of a single non-random event occurring.
+- The likelihood of two random events occurring together. (correct)
+- The likelihood of two non-random events occurring together.
+
+correct: great job!
+
+## Knowledge Check
+
+Repeat the burger joint example, but find the conditional probability that a customer who orders a veggie wrap (🌯) will also order fries (🍟):
+
+![](./probability/assets/knowledge-check.png)
+
+Select the best answer.
+
+- 28.6%
+- 33.3% (correct)
+- 66.7%
+- 71.4%
+
+correct: P(fries|veggiewrap) = 0.1/0.3
 
 ## Functions in Python
 
