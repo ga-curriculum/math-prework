@@ -168,61 +168,64 @@ Select the best answer.
 
 [TODO]
 
-## Manipulating Variables in Python
+## Central Limit Theorem
 
 ### Knowledge Check
 
-In this exercise, you'll create three different kinds of variables and set their specific values.
+Suppose you have the following variables:
 
-Create a variable called volume and set it to 3.2.
-Create a variable called greeting and set it to "hello".
-Create a variable called is_learning and set it to True.
+- $X$ = A random variable representing the blood pressure of everyone in one country.
+- A sample size of 50 individuals.
+- $\overline{X}$ = The mean of this sample’s blood pressure.
 
-Enter your response using Python 3.6.
+If we know that blood pressure ($X$) follows a normal distribution, then we know that the sampling distribution of $\overline{X}$ follows a normal distribution as well.
 
-[Open Code Response]
-
-### Knowledge Check
-
-Suppose birds = ['parrot', 'crow', 'owl']. What is birds[2]?
+If we **don’t** know that blood pressure ($X$) follows a normal distribution, can we assume that the sampling distribution of 
+$\overline{X}$ is approximately normally distributed?
 
 Select the best answer.
 
-- 'parrot'
-- 'crow'
-- 'owl' (correct)
-- IndexError: list index out of range
+- yes: correct
+- no: incorrect
 
-Hint: Remember : Indexing starts at 0, so 'parrot' is 0, 'crow' is 1 and 'owl' is 2
+correct: Yes we can!  If we don't know that blood pressure $X$ follows a normal distribution, we can assume that the sampling distribution of $\overline{X}$ is approximately normally distributed, because our sample size is greater than 30.  We can apply the central limit theorem here.
 
 ### Knowledge Check
 
-You're writing a program that provides restaurant suggestions to users based on survey results. Users are asked to indicate their preference on a variety of flavors and textures by selecting the options "Love it!," "Meh, it's OK," and "No way!"
+We want to estimate the average age among our coworkers. We sample 25 individuals and ask them their age. We don’t know if the population of age would follow a normal distribution.
 
-Which complex data type should you use to store the answer options?
+Which of the following statements is true?
 
 Select the best answer.
 
-- List
-- Tuple
-- Set
-
-Hint: Because the three rankings users can select from are fixed options -- meaning we don't plan to add or delete more -- we'd use a tuple.
+[TODO]
 
 ### Knowledge Check
 
-Suppose you're implementing a spell checker. You want to test whether or not a word is contained inside a collection of known words.
-
-Which data structure should you use to store the words? Why?
+If we visualize the distribution of rolling a die six times and getting 1, 2, 3, 4, 5, and 6 exactly once, the histogram would be...
 
 Select the best answer.
 
-- A list, because the words are all the same data type and have an alphabetical order.
-- A list, because the index of each word is important.
-- A set, because the word order is not important for a spell checker, and checking to see if an element is in a set is more efficient than doing the same for a list.
-- A string, because each word is a string and storing the words in a simpler data type is fast.
+- Normally distributed
+- Round on the sides but flat on top
+- Flat (correct)
+- Skewed to the right
 
-Answer: In this case, a set is preferable to a list because membership lookup is faster for sets. Each word will be unique in the set, and a word's position in the set doesn't matter for a spell check (only that it's contained in the set).
+Correct: If we were to roll a die six times and get each number exactly once, the histogram will be flat.  As we increase the number of rolls, the shape of the distribution will become more normal and eventually reach the central limit theorem.
+
+### Knowledge Check
+
+We want to test if 66 inches is a reasonable guess for the average height of employees at our company. We know that the employees' heights follow a normal distribution and we sample 15 people for the test.
+
+Which of the following statements is **true**?
+
+Select the best answer.
+
+- We do not need to apply the central limit theorem (correct)
+- We need to apply the central limit theorem
+
+
+Correct: We do not need to apply the central limit theorem because our original data is normally distributed, and the sampling distribution will be approximately normally distributed, regardless of sample size.
 
 ### Knowledge Check
 
