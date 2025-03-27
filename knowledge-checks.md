@@ -310,66 +310,92 @@ Select the best answer.
 
 correct: P(fries|veggiewrap) = 0.1/0.3
 
-## Functions in Python
+## Vectors in Python
 
 ### Knowledge Check
 
-Observe the Python function below.
+Select all of the following that are **vectors**.
 
-If we call this function with `calculator("*", 10, 5)`, what will be the output?
+Select all that apply.
 
-```python
-def calculator(operation, value1, value2):
-    if operation == "+": return value1 + value2
-    if operation == "-": return value1 - value2
-    if operation == "*": return value1 * value2
-    if operation == "/": return value1 / value2
-```
+[TODO]]
 
-Select the best answer.
-
-- 15
-- 5
-- 2
-- 50 (correct)
+Correct: Scalars are single numbers with magnitude but no direction, while vectors are an ordered list of scalars. The elephant's weight is a single number without direction. The pool ball is a vector because it has a magnitude and a direction. An accelerating or decelerating object's direction is indicated by a positive or negative number respectively. The car is a vector because it has multiple values.
 
 ### Knowledge Check
 
-Check out the `compound()` function below.
+Suppose we have the following data points representing plant measurements. Which rule might be useful for classifying each plant as the species versicolor or iris?
 
-```python
-def compound(word1, word2):
-    return word1 + word2
-```
+- Versicolor: $(0.1,1.7,3.9).$
 
-What would we need to write in order to get a return value of `'bookshelf'`?
+- Versicolor: $(0.3,1.9,4.0).$
 
-Hint: Our arguments are strings.
+- Versicolor: $(0.2,2.5,4.1).$
+
+- Iris: $(0.4,2.2,3.4).$
+
+- Iris: $(0.2,1.6,3.5).$
 
 Select the best answer.
 
-- `compound('book', 'shelf')` (correct)
-- `compound(book + " " + shelf)`
-- `compound(book, shelf)`
-- `compound('book' + " " + 'shelf')`
+[TODO]
 
 ### Knowledge Check
 
-You begin writing a function that’s designed to multiply two numbers together:
+What is the magnitude of the vector $x$?
 
-```python
-def multiply(a, b):
-    output = a * b
-```
-
-You want to assign the output number to a variable, like so: `var = multiply(3, 4)`. What line needs to be added to the function to make `var` the output number?
+$x=(−1,1,3,5)$
 
 Select the best answer.
 
-- return output (correct)
-- return: output
-- print(output)
-- return
+- $\sqrt{8}$
+- 6 (correct)
+- 36
+- $\sqrt{34}$
+
+correct: The magnitude is the square root of the sum of each component squared, so $\sqrt{(-1^2)+1^2+3^2+5^2+} = \sqrt{36} = 6$
+
+### Knowledge Check
+
+Normalize the vector $v=(3,4)$
+
+Select the best answer.
+
+- (3,4)
+- (3/7, 4/7)
+- (3/5, 4/5) (correct)
+- (0.7, 0.3)
+
+Correct: [TODO]
+
+## Knowledge Check
+
+Which of the following vectors has the largest magnitude?
+
+Select the best answer.
+
+- (-2, 2, 3)
+- (0, -5, 0)
+- (4, 4, 3) (correct)
+- (-2, -3, -4)
+
+correct: [TODO]
+
+## Knowledge Check
+
+Which of the following computes a vector containing the mean of each component pair of mathbf{x} and mathbf{y}?
+
+- $mathbf{x} =(1,3)$.
+- $mathbf{y} =(4,2)$.
+
+Select all that apply.
+
+correct: $0.5(x+y)$
+correct: $x/2+y/2$
+incorrect: $x+y$
+
+Correct: The mean value of the first component pair is $(1+4)/2$, and the mean of the second component pair is $(3+2)/2$. Together, our final vector should be $(2.5,2.5)$. There are two ways to achieve this: We could sum the vectors and multiply the resulting vector by 0.5, or we could divide each vector by 2 and then sum them. The first two choices both result in the desired $(2.5,2.5)$.
+
 
 ## Objects in Classes
 
