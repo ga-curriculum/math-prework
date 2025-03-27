@@ -15,9 +15,9 @@ Welcome to our Math Pre-Work! In just over three hours, this mini course will pr
 | [Measures of Center and Spread](./center-and-spread/README.md)                         | 30 min      | [Summary here]                                                                            |
 | [Central Limit Theorem](./central-limit-theorem/README.md) | 35 min      | [Summary here] |
 | [Rules of Probability](./probability/README.md)                     | 30 min      | [Summary here]                           |
-| [Vectors in Python](./functions-in-python/README.md)                           | 30 min      | Write and run functions in Python, including returning values, to make code more concise.                                             |
-| [Marix Operations in Python](./objects-and-classes/README.md)                           | 30 min      | Create objects from classes using instantiation and pass instance methods and variables with the "self" argument.                     |
-| [More?](./error-handling-in-python/README.md)                 | 25 min      | Troubleshoot common Python errors, use try-except for error handling, and explain the use of the raise keyword.                       |
+| [Vectors in Python](./vectors/README.md)                           | 30 min      | [Summary here]                                             |
+| [Marix Operations in Python](./matrix-operations/README.md)                           | 30 min      | [Summary here]                     |
+| [More?](./error-handling-in-python/README.md)                 | 25 min      | [Summary here]                       |
 | **Total content**                                                                | 3 hr 25 min |                                                                                                                                       |
 
 ## References
