@@ -397,110 +397,56 @@ incorrect: $x+y$
 Correct: The mean value of the first component pair is $(1+4)/2$, and the mean of the second component pair is $(3+2)/2$. Together, our final vector should be $(2.5,2.5)$. There are two ways to achieve this: We could sum the vectors and multiply the resulting vector by 0.5, or we could divide each vector by 2 and then sum them. The first two choices both result in the desired $(2.5,2.5)$.
 
 
-## Objects in Classes
+## Matrix Operations in Python
 
 ### Knowledge Check
 
-Recall that a class is essentially the blueprint of a provided object, which is created using the process of instantiation.
-
-Imagine that you are working with music data and you want to define a class to represent a band. The class should have two attributes that describe the object being assigned to that class — the name of the band (`band`) and the band’s genre (`genre`).
-
-Task: For this challenge, write the code needed to define a class for a band, initiate it for the band Queen, and fill in the `give_stats()` method to have it return a string in the following format: `band: Queen genre: Rock`
-
-Hint: You call the string method `.format()` within the `give_stats()` method to help you return the full set of information.
-
-Enter your response using Python 3.6.
-
-[Open Code Response]
-
-### Knowledge Check
-
-You would like to define a class called Bird() that inherits from a class called Animal(). What is the correct syntax for the first line of the class definition?
+How many total elements would a matrix with 13 rows and 10 columns have?
 
 Select the best answer.
 
-- `def Bird(Animal)`
-- `class Bird from Animal`
-- `class Bird(Animal)` (correct)
-- `Class Animal(Bird)`
+- 65
+- 130 (correct)
+- 13
 
-Hint: Class is lowercase and the parent class is put in the parentheses following the name of the defined class.
+correct: For each row there are 10 elements, because there are 13 rows, there are 10\*13= 130 elements.
 
 ### Knowledge Check
 
-Consider the following class definition for `Cat()`:
+Suppose we find the dot product of a vector, $x$, with itself — the sum of the element-wise products.
 
-```python
-class Cat(Animal):
-    def __init__(self, name='Lucky'):
-        self.name = name
-```
-
-How would you instantiate a `Cat()` object with a `name` attribute of `'Furball'`?
+What is the result?
 
 Select the best answer.
 
-- `mycat = Cat(name='Furball')` (correct)
-- `furball = Cat()`
-- `mycat = Cat(self, name='Furball')`
-- `mycat = Cat.init(name='Furball')`
-
-Hint: The `__init__()` function is automatically called when we create an object with the `Cat(name='Furball')` syntax
+[TODO]
 
 ### Knowledge Check
 
-Which of the following statements are true of the `self` argument in class definitions?
+What is the result of the following equation? (These matrices are written as nested lists, just as you’d write them in NumPy. So, the first nested list is the first row.)
+
+0.5 \* [[8, 10],[2, 2]]- [[5, 2][1, -3]]
+
+Select the best answer.
+
+[TODO]
+
+correct: [TODO]
+
+### Knowledge Check
+
+The following is of the form $\mathbf{AX}=\mathbf{B}$. What are possible values for the $x$ vector that would make this equation valid?
+
+[TODO]
 
 Select all that apply.
 
-- Correct : The user does not need to supply `self` when using instance methods, only when defining them.
-- Correct : The `self` argument is a reference to the instance object.
-- Incorrect: Any variable assigned with `self` (e.g. `self.var`) will be shared across instances of the class.
-- Incorrect: With an instance, `obj`, entering `obj.self.var` will provide the value of `var` for that instance
-
-Hint: `self` is automatically passed into an instance method when you call it. It refers to the instance, and not the class. `self.var` will not be shared between instances, as `self` refers only to the specific instance.
-
-
-## Error Handling in Python
+[TODO]
 
 ### Knowledge Check
 
-Consider the following code:
-
-```python
-for i in 1 to 10:
-    print(i)
-```
-
-Which of the following error types will occur?
+How might the equations $y_1=5x+3$ and $y_2=−2x−7$, evaluated at the points $x=4$ and $x=0$, be represented as **AX** (where **X** includes values for the constant coefficients)?
 
 Select the best answer.
 
-- TypeError
-- SyntaxError (correct)
-- NameError
-- ValueError
-
-### Knowledge Check
-
-You are writing a function that adds numbers together. The output should only be a positive number or zero. If it isn’t, you would like to throw a `ValueError`:
-
-```python
-def positive_only(a, b):
-    output = a + b
-    if output >= 0:
-        return output
-    else:
-        # Your code here.
-```
-
-What code should be placed in the `else` statement to give a `ValueError`?
-
-Select the best answer.
-
-- throw ValueError
-- raise ValueError (correct)
-- return ValueError
-- except ValueError
-
-Hint: To throw an error to a user use the `raise` keyword followed by the error type.
+[TODO]
