@@ -5,6 +5,11 @@
 
 ## Random Variables and Expected Value ( 25 min )
 
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+
+----
+<br>
+
 WWhen you're working with different variables, how can you tell which ones are normal (or expected) and which ones are out-of-the-blue random? In this lesson, we’ll teach you how to identify and analyze random and expected values.
 
 ## Topics
@@ -195,6 +200,16 @@ E[X]=\int_{-\infty}^\infty x⋅f(x)
 $$
 
 where $f(x)$ is the probability density function for the random variable $X$.
+
+## Wrap up
+
+Interested in some further topics?  Check out
+
+- [Calculus](https://brilliant.org/courses/calculus-done-right/)
+- [Random Variables](http://www.mathsisfun.com/data/random-variables.html)
+- [Continuous Variables](http://www.mathsisfun.com/data/random-variables.html)
+- [Mean Variance](http://www.mathsisfun.com/data/random-variables-mean-variance.html)
+
 
 ## Up Next...
 

@@ -5,6 +5,11 @@
 
 ## Central Limit Theorem ( 35 min )
 
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+
+----
+<br>
+
 The central limit theorem (CLT) is at the core of making inferences about large data sets — a primary part of the job of a data scientist. In this lesson, you’ll explore how CLT helps us explore and understand what’s happening under the hood: the story behind the data.
 
 ## Topics
@@ -190,6 +195,10 @@ In data science, **sample protocol** is an important part of dealing with survey
 For example, customers with bad experiences may be more likely to write reviews on a website than those with good experiences. Therefore, this does not necessarily mean that users are having more negative experiences than positive ones! Instead, it suggests that the results are biased toward dissatisfied customers.
 
 If you know your data set contains biased answers, it’s up to you to decide how to deal with the data so that you can still get meaningful results.
+
+## Wrap up
+
+We’ve reviewed how to calculate, visualize, and analyze data using the central limit theorem. As you move throughout the course using sample data sets to estimate characteristics about large populations, recalling the central limit theorem will come in handy.
 
 ## Up Next...
 

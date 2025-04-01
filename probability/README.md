@@ -5,6 +5,11 @@
 
 ## Rules of Probability ( 30 min )
 
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+
+----
+<br>
+
 You’ve got a six-sided die and some time to kill. What’s the likelihood that you’ll roll a 3? A 5? How about a 2? In this lesson, we’ll review some of the foundational concepts of probability — i.e., the likelihood of an event occurring.
 
 ## Topics
@@ -270,6 +275,11 @@ Ultimately, if the customer orders a burger, they’re **28.6%** likely to order
 
 Now that you’ve figured this out, you have one question to answer: Should you order the SuperTurboX Ice Cream machine? Decisions, decisions, decisions.
 
+## Wrap up
+
+We covered sets and rules of probability here. As you’ll be working with probability throughout the course, feel free to review this lesson anytime you need a refresher.
+
+For more information, check out [Joint and Conditional Probability](https://www.mathsisfun.com/data/probability-events-conditional.html).
 
 ## Up Next...
 

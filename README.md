@@ -5,7 +5,9 @@
 
 ## About
 
-Welcome to our Math Pre-Work! In just over three hours, this mini course will provide you with a solid foundation in math essentials for Data Science. You'll learn essential concepts such as random variables, basic stats, central limit theorem, vectors and matrix operations in python. Designed for beginners, this program is your first step towards learning the essential math skills and preparing for more advanced concepts later. Dive in and start your mathematical journey here!
+[TODO]- extra content
+
+Welcome to our Math Pre-Work! In just under three hours, this mini course will provide you with a solid foundation in math essentials for Data Science. You'll learn core concepts such as random variables, basic stats, central limit theorem, vectors and matrix operations in python. Designed for beginners, this module is your first step towards learning the essential math skills and preparing for more advanced concepts later. Dive in and start your mathematical journey here!
 
 ## Content
 
@@ -17,8 +19,8 @@ Welcome to our Math Pre-Work! In just over three hours, this mini course will pr
 | [Rules of Probability](./probability/README.md)                     | 30 min      | [Summary here]                           |
 | [Vectors in Python](./vectors/README.md)                           | 30 min      | [Summary here]                                             |
 | [Marix Operations in Python](./matrix-operations/README.md)                           | 30 min      | [Summary here]                     |
-| [More?](./error-handling-in-python/README.md)                 | 25 min      | [Summary here]                       |
-| **Total content**                                                                | 3 hr 25 min |                                                                                                                                       |
+| [More?]()                 | 0 min      | [Summary here]                       |
+| **Total content**                                                                | 2 hr 55 min |                                                                                                                                       |
 
 ## References
 

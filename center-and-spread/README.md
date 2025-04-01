@@ -5,6 +5,11 @@
 
 ## Measures of Center and Spread ( 30 min )
 
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+
+----
+<br>
+
 Goldilocks wanted a bed that was not too hard, or too soft, or too hot, or too cold. Like Goldilocks, you might want to find that value that’s right in the middle. But when you’re dealing with a large, complex data set, that can be more complicated than it sounds. In this lesson, we’ll dive into the statistics that will help you see the range of options and find where “center” actually is.
 
 ## Topics
@@ -214,6 +219,10 @@ $16.25 - 3 * 7.6 = -6.55$
 $16.25 + 3 * 7.6 = 39.05$
 
 Any points below -6.55 or above 39.05 may warrant further investigation, as they may be outliers!
+
+## Wrap up
+
+Now we know the difference between measures of spread and measures of central tendency! These numbers are summaries that help us paint a fuller picture of our data’s story (and are particularly useful when making business decisions).
 
 ### Up Next...
 

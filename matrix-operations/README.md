@@ -5,6 +5,11 @@
 
 ## Matrix Operations in Python ( 30 min )
 
+*author: [Dan Wilhelm](http://danwilhelm.com/) | AI & Data Science Consultant*
+
+----
+<br>
+
 You see matrix operations everywhere. All of the memes made through Adobe Photoshop use matrices to process linear transformations to render images. In this lesson, we’ll learn to work with matrices as another foundation that will help us perform linear regression data science models.
 
 ## Topics
@@ -234,6 +239,16 @@ $\mathbf{Ax}=\mathbf{B}$
 Note that our predicted data points have the independent variable values from the $\mathbf{x}$ column vector and the corresponding predicted $y$ values from the $\mathbf{b}$ column vector. If we were predicting the results of multiple variables, the $\mathbf{b}$ could be a matrix.
 
 Make sure you understand how $m$ and $n$ relate to the figure. Trace through the two dot products again and visualize the linear equations being computed algebraically. Can you extend it to three equations? Can you figure out how to have it make predictions for multiple data points? How might you expand our notion of matrix multiplication to do this?
+
+## Wrap up
+
+Nice work! As you move through the Immersive and start using the NumPy library, you’ll get more familiar with using it to create a matrix.
+
+If you’re interested in gaining more practice with this topic, check out the following resources:
+
+- [Matrix Introductions](http://www.mathsisfun.com/algebra/matrix-introduction.html)
+- [Matrix Multiplication](http://www.mathsisfun.com/algebra/matrix-multiplying.html)
+- [Matrix Inverse](http://www.mathsisfun.com/algebra/matrix-inverse.html)
 
 ## Up Next...
 

@@ -5,6 +5,11 @@
 
 ## Vectors in Python ( 30 min )
 
+*author: [Dan Wilhelm](http://danwilhelm.com/) | AI & Data Science Consultant*
+
+----
+<br>
+
 What do shirt sizes, education levels, and music genres all have in common? They’re all examples of ordinal categorical data attributes. In this lesson, we’ll explore working with categorical data using vectors, which lets us perform basic operations in Python.
 
 ## Topics
@@ -400,6 +405,16 @@ $$
 $$
 
 The vectors here are at a 90-degree angle, and the dot product is $0$. This is because the dot product is related to the angle between vectors.
+
+## Wrap up
+
+We’ve covered what scalars and vectors are and how we can represent categorical data. As you move forward in the course, remember that vectors and matrices help to build the foundation for linear regression.
+
+If you want to learn more, check out the following resources:
+
+- [Scalar Vector Matrix](http://www.mathsisfun.com/algebra/scalar-vector-matrix.html).
+
+- [Vector Dot Product](http://www.mathsisfun.com/algebra/vectors-dot-product.html).
 
 ## Up Next...
 
