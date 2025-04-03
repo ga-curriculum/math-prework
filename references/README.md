@@ -30,6 +30,6 @@ If you’re interested in gaining more practice with matrix operations:
 
 If you want to learn more, check out the following resources:
 
-- [Scalar Vector Matrix](http://www.mathsisfun.com/algebra/scalar-vector-matrix.html).
+- [Scalar Vector Matrix](http://www.mathsisfun.com/algebra/scalar-vector-matrix.html)
 
-- [Vector Dot Product](http://www.mathsisfun.com/algebra/vectors-dot-product.html).
+- [Vector Dot Product](http://www.mathsisfun.com/algebra/vectors-dot-product.html)
