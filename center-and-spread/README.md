@@ -60,7 +60,7 @@ It turns out that there are a few different ways to describe the middle of your 
 
 ## Measures of Center
 
-[TODO] - Video
+<a href="https://generalassembly.wistia.com/medias/qr0cpm0v1i"><img src="https://embed-ssl.wistia.com/deliveries/af56ae7e5a709fb7ab6105fa1dc37819.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="control-flow" width="450" height="253" /></a>
 
 
 ### Measures Of Spread

@@ -28,7 +28,7 @@ By the end of this lesson, you'll be able to:
 
 ## Why Linear Algebra?
 
-[TODO] - video
+<a href="https://generalassembly.wistia.com/medias/5meayxool0"><img src="https://embed-ssl.wistia.com/deliveries/78e79bfbe561301c2bdeb6092264515b.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="control-flow" width="450" height="253" /></a>
 
 
 ## Scalars and Vectors
