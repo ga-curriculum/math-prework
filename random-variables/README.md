@@ -10,7 +10,7 @@
 ----
 <br>
 
-WWhen you're working with different variables, how can you tell which ones are normal (or expected) and which ones are out-of-the-blue random? In this lesson, we’ll teach you how to identify and analyze random and expected values.
+When you're working with different variables, how can you tell which ones are normal (or expected) and which ones are out-of-the-blue random? In this lesson, we’ll teach you how to identify and analyze random and expected values.
 
 ## Topics
 
