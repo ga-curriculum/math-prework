@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Math Pre-Work</span>
+  <span class="headline">Math Prework</span>
   <span class="subhead">Vectors in Python</span>
 </h1>
 
