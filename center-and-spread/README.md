@@ -5,7 +5,7 @@
 
 ## Measures of Center and Spread ( 30 min )
 
-_author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C._
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
 
 ----
 <br>
@@ -60,7 +60,7 @@ It turns out that there are a few different ways to describe the middle of your 
 
 ## Measures of Center
 
-<a href="https://generalassembly.wistia.com/medias/qr0cpm0v1i"><img src="https://embed-ssl.wistia.com/deliveries/af56ae7e5a709fb7ab6105fa1dc37819.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="control-flow" width="450" height="253" /></a>
+<a href="https://generalassembly.wistia.com/medias/qr0cpm0v1i"><img src="https://embed-ssl.wistia.com/deliveries/af56ae7e5a709fb7ab6105fa1dc37819.jpg?image_crop_resized=900x506&image_play_button=true&image_play_button_size=2x&image_play_button_color=222222e0" alt="center" width="450" height="253" /></a>
 
 
 ### Measures Of Spread
@@ -131,7 +131,7 @@ Let’s walk through the steps of this formula to find the standard deviation fo
 2. Take the difference of each observation and the mean.
 3. Square each result from Step 2.
 4. Sum each result from Step 3.
-5. Divide the result of the previous Step by $(n−1)$, where $n$ is the number of observations.
+5. Divide the result of the previous Step by $ (n−1) $, where $n$ is the number of observations.
 6. Take the square root of this result.
 
 Before scrolling down, try to calculate these totals yourself!
