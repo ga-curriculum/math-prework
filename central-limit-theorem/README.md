@@ -5,7 +5,7 @@
 
 ## Central Limit Theorem ( 35 min )
 
-*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) : Lead Instructor, Data Science Immersive, Washington, D.C.*
 
 ----
 <br>
