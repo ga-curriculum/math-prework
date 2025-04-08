@@ -5,7 +5,7 @@
 
 ## Matrix Operations in Python ( 30 min )
 
-*author: [Dan Wilhelm](http://danwilhelm.com/) | AI & Data Science Consultant*
+*author: [Dan Wilhelm](http://danwilhelm.com/) : AI & Data Science Consultant*
 
 ----
 <br>
