@@ -5,7 +5,7 @@
 
 ## Random Variables and Expected Value ( 25 min )
 
-*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) : Lead Instructor, Data Science Immersive, Washington, D.C.*
 
 ----
 <br>
