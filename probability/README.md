@@ -5,7 +5,7 @@
 
 ## Rules of Probability ( 30 min )
 
-*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) | Lead Instructor, Data Science Immersive, Washington, D.C.*
+*author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) : Lead Instructor, Data Science Immersive, Washington, D.C.*
 
 ----
 <br>
