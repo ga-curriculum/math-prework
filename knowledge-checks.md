@@ -10,11 +10,13 @@ Select the best answer.
 
 - Incorrect: The number of home runs hit by Babe Ruth.
 
-- Correct : The volume of water in all the earth's oceans. (Because volumne is a measurement, this is indeed a continuous value.  We can always increase the decimal place to which the volume is measured to improve its accuracy.)
+- Correct : The volume of water in all the earth's oceans.
 
 - Incorrect: The number of employees in a company.
 
 - Incorrect : The number of grains of sand on earth.
+
+Correct: Because volume is a measurement, the volume of water in all the earth's oceans is indeed a continuous value.  We can always increase the decimal place to which the volume is measured to improve its accuracy.
 
 ### Knowledge Check
 
