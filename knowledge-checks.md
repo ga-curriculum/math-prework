@@ -123,17 +123,6 @@ Correct: The value we see most often is the 13.
 
 ### Knowledge Check
 
-What are the data types of `+42`, `1`, `False`, and `float(False)`, respectively?
-
-- int, bool, bool, float
-- int, int, bool, bool
-- int, float, bool, bool
-- int, int, bool, float (correct)
-
-The built in float() function converts the value passed in into a float. Note that 1 by itself is an int, even though True is internally represented as 1.
-
-### Knowledge Check
-
 What is the variance of the values [4, 10, 16]?
 
 Select the best answer.
