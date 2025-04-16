@@ -287,6 +287,10 @@ $$
 
 ## Python Example- try it in colab!
 
+Go ahead and open a new notebook in [Google Colab](https://colab.research.google.com/) and run the following Python code.
+
+You execute the code in the colab cell by either clicking the little "Play" button or hitting Shift+Enter.
+
 Let's compute the expected value of rolling a fair die.
 
 ```python
