@@ -267,9 +267,9 @@ $$
 f(x) = \lambda e^{-\lambda x}, \quad x \geq 0
 $$
 
-where \( \lambda \) (lambda) is the rate parameter.
+where $\lambda$ (lambda) is the rate parameter.
 
-The expected value of an **Exponential(\(\lambda\))** distribution is:
+The expected value of an **Exponential$(\lambda)$** distribution is:
 
 $$
 E[X] = \frac{1}{\lambda}
@@ -279,9 +279,9 @@ $$
 
 ### **Key Takeaways**
 - **Discrete Random Variables**: Expected value is a weighted sum.
-- **Continuous Random Variables**: Expected value is an integral of \( x \cdot f(x) \).
-- **Uniform Distribution**: \( E[X] = \frac{a + b}{2} \).
-- **Exponential Distribution**: \( E[X] = \frac{1}{\lambda} \).
+- **Continuous Random Variables**: Expected value is an integral of $x \cdot f(x)$.
+- **Uniform Distribution**: $E[X] = \frac{a + b}{2}$.
+- **Exponential Distribution**: $E[X] = \frac{1}{\lambda}$.
 
 ---
 
