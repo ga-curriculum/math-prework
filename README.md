@@ -11,8 +11,8 @@ Welcome to our Math Prework! In just under three hours, this mini course will pr
 
 | Lesson                                                                           | Time        | Skills                                                                                                                                |
 | -------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| [Random Variables and Expected Value](./random-variables/README.md)                     | 40 min      | What are random variables and a look at distributions.
-| [Measures of Center and Spread](./center-and-spread/README.md)                         | 30 min      | [Summary here]                                                                            |
+| [Random Variables and Expected Value](./random-variables/README.md)                    | 40 min      | What are random variables and a look at distributions.
+| [Measures of Center and Spread](./center-and-spread/README.md)                         | 50 min      | Explain descriptive statistics and practice computing them by hand and with python.                                                                            |
 | [Central Limit Theorem](./central-limit-theorem/README.md) | 35 min      | [Summary here] |
 | [Rules of Probability](./probability/README.md)                     | 30 min      | [Summary here]                           |
 | [Vectors in Python](./vectors/README.md)                           | 30 min      | [Summary here]                                             |
