@@ -3,7 +3,7 @@
   <span class="subhead">Random Variables and Expected Value</span>
 </h1>
 
-## Random Variables and Expected Value ( 25 min )
+## Random Variables and Expected Value ( 40 min )
 
 *author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) : Lead Instructor, Data Science Immersive, Washington, D.C.*
 
