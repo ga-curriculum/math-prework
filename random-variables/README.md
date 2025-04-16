@@ -81,7 +81,7 @@ Nearly all random variables fit into one of two categories: **continuous** and *
 
 - If you *cannot* list out all of the possible values of a random variable, we call that random variable **continuous**.
 
-![](./assets/cont-disc.png)
+<img src="./assets/cont-disc.png" width="600" />
 
 <br>
 
@@ -116,7 +116,7 @@ Another example of a continuous random is one that represents the distance betwe
 
 In the image below, as the x axis approaches 10, it appears that the y axis reaches zero. However, it will actually just become an increasingly smaller number on into infinity — 0.001, 0.0001, 0.00001, 0.000001, and so on.
 
-![](./assets/cont.png)
+<img src="./assets/cont.png" width="600" />
 
 <br>
 
