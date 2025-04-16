@@ -13,7 +13,7 @@ Welcome to our Math Prework! In just under three hours, this mini course will pr
 | -------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | [Random Variables and Expected Value](./random-variables/README.md)                    | 40 min      | What are random variables and a look at distributions.
 | [Measures of Center and Spread](./center-and-spread/README.md)                         | 50 min      | Explain descriptive statistics and practice computing them by hand and with python.                                                                            |
-| [Central Limit Theorem](./central-limit-theorem/README.md) | 35 min      | [Summary here] |
+| [Central Limit Theorem](./central-limit-theorem/README.md) | 45 min      | Explaing what the CLT is and see it in action |
 | [Rules of Probability](./probability/README.md)                     | 30 min      | [Summary here]                           |
 | [Vectors in Python](./vectors/README.md)                           | 30 min      | [Summary here]                                             |
 | [Matrix Operations in Python](./matrix-operations/README.md)                           | 30 min      | [Summary here]                     |
