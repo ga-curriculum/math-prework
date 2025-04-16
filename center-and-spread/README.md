@@ -3,7 +3,7 @@
   <span class="subhead">Measures of Center and Spread</span>
 </h1>
 
-## Measures of Center and Spread ( 30 min )
+## Measures of Center and Spread ( 50 min )
 
 *author: [Matt Brems](https://www.linkedin.com/in/matthewbrems/) : Lead Instructor, Data Science Immersive, Washington, D.C.*
 
@@ -79,7 +79,7 @@ Think back on our Etsy scenario — examining how many purchases have been made 
 
 For example, both of these histograms have a mean and median that are exactly 14:
 
-![](./assets/spread.png)
+<img src="./assets/spread.png" width="700" />
 
 <br>
 
@@ -96,7 +96,7 @@ We find the largest and smallest values in our data, then calculate the differen
 
 Let’s use Histogram 1 as an example:
 
-![](./assets/range.png)
+<img src="./assets/range.png" width="500" />
 
 <br>
 
@@ -111,7 +111,7 @@ Two factors to keep in mind when determining standard deviation:
 - **Low standard deviation**: The mean is close to zero and the data isn’t very spread out.
 - **High standard deviation**: The mean is far from zero, and there is a lot of spread in our data.
 
-![](./assets/std.png)
+<img src="./assets/std.png" width="700" />
 
 <br>
 
@@ -131,7 +131,7 @@ Let’s walk through the steps of this formula to find the standard deviation fo
 2. Take the difference of each observation and the mean.
 3. Square each result from Step 2.
 4. Sum each result from Step 3.
-5. Divide the result of the previous Step by $ (n−1) $, where $n$ is the number of observations.
+5. Divide the result of the previous Step by $(n−1)$, where $n$ is the number of observations.
 6. Take the square root of this result.
 
 Before scrolling down, try to calculate these totals yourself!
@@ -152,7 +152,7 @@ The standard deviation of the data set [3, 4, 5] is **1**.
 
 Our mean value is **4** and our lowercase sigma represents **one standard deviation** to the right or left of the mean.
 
-![](./assets/stds.png)
+<img src="./assets/stds.png" width="700" />
 
 <br>
 
@@ -427,10 +427,10 @@ price_mean = diamonds['Price'].mean()
 ```
 
 Pandas defaults to the *sample* variance, so we'll do that formula in the following steps:
-    * Subtract the mean price from each price
-    * Square that difference
-    * Sum up those numbers
-    * Divide them by the number of values (subtracted by 1 for sample variance)
+- Subtract the mean price from each price
+- Square that difference
+- Sum up those numbers
+- Divide them by the number of values (subtracted by 1 for sample variance)
 
 This sounds like a lot of work, but we can actually do it in one line!
 
