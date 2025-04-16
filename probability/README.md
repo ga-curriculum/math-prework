@@ -190,7 +190,9 @@ The probability of rain is **conditional** upon the chance of clouds.
 
 When writing this out, it would look and sound like...
 
-![](./assets/conditional.png)
+<img src="./assets/conditional.png" width="450" />
+
+<br>
 
 ## Conditional Probability (Cont.)
 
@@ -232,7 +234,7 @@ This data is represented in this spreadsheet (pictured below) of 10 customer tra
 
 Looking at this data, given that a customer orders a burger, what is the probability that they’ll order an ice cream?
 
-![](./assets/burger.png)
+<img src="./assets/burger.png" width="700" />
 
 <br>
 
