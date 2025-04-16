@@ -191,7 +191,7 @@ $$
 E[X]=\displaystyle\sum_{i=1}^n x_i⋅P(X=x_i)
 $$
 
-In the case of a continuous random variable, we can’t calculate $x_i⋅P(X=x_i)$ for each $i$ — there's an uncountably infinite number of $i$s!
+In the case of a continuous random variable, we can’t calculate $x_i⋅P(X=x_i)$ for each $i$ — there's an uncountably infinite number of $i$ s!
 
 So, for a continuous random variable, $X$, the formula is:
 
@@ -202,7 +202,7 @@ $$
 where $f(x)$ is the probability density function for the random variable $X$.
 
 ---
-## Recap of Random Variables and Expected Value
+## Summary:  What have we learned?
 
 ### **Random Variables**
 A **random variable** is a numerical outcome of a random process. It can take different values based on some probability distribution.
@@ -285,7 +285,7 @@ $$
 
 ---
 
-## Python Example
+## Python Example- try it in colab!
 
 Let's compute the expected value of rolling a fair die.
 
