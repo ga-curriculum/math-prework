@@ -61,7 +61,7 @@ To start determining voter trends and preferences, you may want to get to know y
 
 That group of people? That’s your group of interest — your **population**.
 
-![](./assets/pop.png)
+<img src="./assets/pop.png" width="700" />
 
 <br>
 
@@ -72,7 +72,7 @@ Now, let’s say you want to take a closer look at this population to see which 
 
 That’s your **sample** — a subset of the population.
 
-![](./assets/sample.png)
+<img src="./assets/sample.png" width="700" />
 
 <br>
 
@@ -92,7 +92,7 @@ Take a look at this figure reflecting **three normal distributions**. It highlig
 2. **Red (middle) distribution**: Has a mean of **0** and a standard deviation of **1**.
 3. **Black (right) distribution**: Has a mean of **2** and a standard deviation of **3**.
 
-![](./assets/normal.png)
+<img src="./assets/normal.png" width="500" />
 
 <br>
 
@@ -122,7 +122,7 @@ In the example below, we can see that as the sample size gets larger, the graph 
 
 If $n$ is larger than $30$, then $\overline{X}$ is sufficiently close to normal. The larger the value of $n$, the better basis you’ll have for decision-making.
 
-![](./assets/clt.png)
+<img src="./assets/clt.png" width="550" />
 
 <br>
 
@@ -137,7 +137,7 @@ Take a look at these four histograms and what they represent:
 
 Notice that, as $n$ increases, the distribution becomes more normal.
 
-![](./assets/dice.png)
+<img src="./assets/dice.png" width="700" />
 
 <br>
 
@@ -172,7 +172,7 @@ We’d use the random variable ($\overline{X}$) to represent all possible values
 
 If we were to visualize this with a histogram, we get a flat chart in which values 1 through 6 are all equally likely.
 
-<img src="./assets/hist.png" width="600" />
+<img src="./assets/hist.png" width="550" />
 
 <br>
 
