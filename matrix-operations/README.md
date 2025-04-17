@@ -3,7 +3,7 @@
   <span class="subhead">Matrix Operations in Python</span>
 </h1>
 
-## Matrix Operations in Python ( 30 min )
+## Matrix Operations in Python ( 45 min )
 
 *author: [Dan Wilhelm](http://danwilhelm.com/) : AI & Data Science Consultant*
 
@@ -188,10 +188,10 @@ Here are our two equations: $y_1=2x+3$ and $y_ 2=4x+5$.
 
 We want to evaluate both equations given $x=5$, so we should get $2×5+3=13$ and $4×5+5=25$. We’ll construct a matrix for the coefficients: a 2-by-2 matrix will hold $[2 \quad 3]$ in Row 1 and $[4 \quad 5]$ in Row 2.
 
-The column vector will be the same as before, our desired $x=5$, along with the constant: 
+The column vector will be the same as before, our desired $x=5$, along with the constant 
 
 $$
-\begin{bmatrix}1\cr 5\end{bmatrix}
+\begin{bmatrix}5\cr 1\end{bmatrix}
 $$
  
 Let’s visualize this:
@@ -277,9 +277,9 @@ Matrices play a fundamental role in data science and machine learning. Some key 
 4. **Linear Regression**:
    - The normal equation in **Ordinary Least Squares (OLS)** regression is solved using matrix operations:
    
-   
-   $\beta$ = (X^T X)^{-1} X^T y
-   
+$$   
+\beta = (X^T X)^{-1} X^T y
+$$ 
    
 5. **Neural Networks**:
    - Weights and activations in deep learning models are represented as matrices, and forward/backpropagation relies on matrix multiplications.
@@ -355,7 +355,7 @@ If you’re interested in gaining more practice with this topic, check out the f
 
 ## Up Next...
 
-After some knowledge checks your next module is The Programmer's Tools.
+After some knowledge checks there are some Python exercises using CodeWars.
 
 <br>
 
