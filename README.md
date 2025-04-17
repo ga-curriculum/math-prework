@@ -16,8 +16,8 @@ Welcome to our Math Prework! In just under three hours, this mini course will pr
 | [Central Limit Theorem](./central-limit-theorem/README.md) | 45 min      | Explain what the CLT is and see it in action |
 | [Rules of Probability](./probability/README.md)                     | 45 min      | Understand set theory, the rules of probability and conditional probability.                           |
 | [Vectors in Python](./vectors/README.md)                           | 45 min      | What are scalars and vectors, what are vector operations and how to use them in python                                             |
-| [Matrix Operations in Python](./matrix-operations/README.md)                           | 30 min      | [Summary here]                     |
-| **Total content**                                                                | 2 hr 55 min |                                                                                                                                       |
+| [Matrix Operations in Python](./matrix-operations/README.md)                           | 45 min      | Understand matrix composition and execute math with matrices.                      |
+| **Total content**                                                                | 4 hr 30 min |                                                                                                                                       |
 
 ## References
 
