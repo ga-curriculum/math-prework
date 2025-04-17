@@ -43,7 +43,7 @@ Taking this a bit further…
 
 Let’s say your friend bought a new Segway. They’re cruising along at eight miles per hour on Oak Street.
 
-![](./assets/scalar.png)
+<img src="./assets/scalar.png" width="450" />
 
 <br>
 
@@ -72,7 +72,7 @@ A **vector** is a list of numbers. You can interpret what that list of numbers m
 
 If you see a list of numbers enclosed in parentheses or brackets, or a lowercase letter with an arrow on top, you can assume it’s a vector. In this lesson, we’ll denote vectors as bold, lowercase letters.
 
-![](./assets/vector.png)
+<img src="./assets/vector.png" width="450" />
 
 <br>
 
@@ -101,7 +101,7 @@ One way of vectorizing your data is called [label encoding](https://scikit-learn
 
 Let’s use that `Apple` plus `Kiwi` example to illustrate this technique:
 
-![](./assets/encode.png)
+<img src="./assets/encode.png" width="600" />
 
 <br>
 
@@ -113,7 +113,7 @@ Another common technique for vectorizing categorical data is called [one-hot enc
 
 Let’s see what a transformation looks like:
 
-![](./assets/ohe.png)
+<img src="./assets/ohe.png" width="600" />
 
 <br>
 
@@ -155,7 +155,7 @@ We’ll try this out using a plain-old graph grid to plot some of our Olympic at
 
 We’ll start by vectorizing each athlete. Suppose you know the age, weight, and sport of four athletes:
 
-![](./assets/vectors.png)
+<img src="./assets/vectors.png" width="600" />
 
 <br>
 
@@ -169,7 +169,7 @@ Notice that the two clusters can be separated by a line. The purpose of linear a
 
 For our Olympic data, the swimmers could also be classified using only vertical and horizontal lines of being an age older than 20 and/or a weight more than 160, for example.
 
-![](./assets/classification.png)
+<img src="./assets/classification.png" width="600" />
 
 <br>
 
@@ -223,7 +223,7 @@ Let’s say we’re taking a survey on the street and want to collect the age, w
 
 The first person passes by and we get the following data:
 
-![](./assets/magnitude.png)
+<img src="./assets/magnitude.png" width="600" />
 
 <br>
 
@@ -242,7 +242,7 @@ Then, another person approaches and they also give us this data.
 
 When we add it to our data set, it ends up looking like this:
 
-![](./assets/magnitude2.png)
+<img src="./assets/magnitude2.png" width="600" />
 
 <br>
 
@@ -258,7 +258,7 @@ In [2]: data = [
 Out[2]: [[34, 175, 72], [22, 136, 50]]
 ```
 
-![](./assets/brackets.png)
+<img src="./assets/brackets.png" width="600" />
 
 <br>
 
@@ -278,7 +278,7 @@ This is called a **unit vector**, as the vector has a unit length.
 
 Picture a line running through the origin to the vector point. Now, imagine a unit circle — a circle with a radius of $1$ — surrounding the origin. The point of intersection of the line with the unit circle (closest to the vector point) represents the normalized vector. Normalizing a vector means that we’re mapping the vector to a point on the unit circle.
 
-![](./assets/norm.png)
+<img src="./assets/norm.png" width="500" />
 
 <br>
 
@@ -288,7 +288,7 @@ Normalizing a vector means that we’re mapping the vector to a point on the uni
 
 For example, the magnitude of $(1,1)$ is $\sqrt{2}$ .  So, its unit vector is $(1,1)/ \sqrt{2}$ .  The unit vector is often denoted by including a hat above the vector name. So, for an $n$-dimensional vector, $v$:
 
-![](./assets/math.png)
+<img src="./assets/math.png" width="300" />
 
 <br>
 
@@ -328,7 +328,7 @@ In the visual below, a line is drawn from the origin through the vector point.
 - Multiplying the vector by one-half corresponds to the point halfway between the point and the origin.
 - Multiplying it by two corresponds to the point twice as far from the origin.
 
-![](./assets/scale.png)
+<img src="./assets/scale.png" width="400" />
 
 <br>
 
