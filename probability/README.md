@@ -90,7 +90,9 @@ The **set intersection** of two sets is where you have the elements that both ha
 
 A **set union** is all of the distinct elements in either set.
 
-![](./assets/sets.png)
+<img src="./assets/sets.png" width="700" />
+
+<br>
 
 We can find the **intersection** of `my_set_1` and `my_set_2` as follows:
 
