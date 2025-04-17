@@ -15,7 +15,7 @@ Welcome to our Math Prework! In just under three hours, this mini course will pr
 | [Measures of Center and Spread](./center-and-spread/README.md)                         | 50 min      | Explain descriptive statistics and practice computing them by hand and with python.                                                                            |
 | [Central Limit Theorem](./central-limit-theorem/README.md) | 45 min      | Explain what the CLT is and see it in action |
 | [Rules of Probability](./probability/README.md)                     | 45 min      | Understand set theory, the rules of probability and conditional probability.                           |
-| [Vectors in Python](./vectors/README.md)                           | 30 min      | [Summary here]                                             |
+| [Vectors in Python](./vectors/README.md)                           | 45 min      | What are scalars and vectors, what are vector operations and how to use them in python                                             |
 | [Matrix Operations in Python](./matrix-operations/README.md)                           | 30 min      | [Summary here]                     |
 | **Total content**                                                                | 2 hr 55 min |                                                                                                                                       |
 
