@@ -44,7 +44,7 @@ When indexing matrices:
 - Start indexing at 1 (most programming languages start with 0).
 - Denote matrices with bold capital letters (e.g., **X**) to distinguish between a matrix and a coefficient (which is typically written in italics).
 
-So, an $m$-by-$n$ matrix is a matrix containing $m$ rows and $n$ columns. It looks something like this:
+So, an $m$ -by- $n$ matrix is a matrix containing $m$ rows and $n$ columns. It looks something like this:
 
 $$
 \mathbf{X}=
@@ -62,7 +62,7 @@ What do matrices usually represent?
 
 In data science, we often create matrices in which each row represents a data point (a record or sample) and each column represents a feature of those data points.
 
-This lets us think about a matrix as an ordered list of data points, much like a vector is an ordered list of scalars. If we take a look at a single data point in that matrix, it has dimensions of 1-by-$n$ and is called a **row vector**.
+This lets us think about a matrix as an ordered list of data points, much like a vector is an ordered list of scalars. If we take a look at a single data point in that matrix, it has dimensions of 1-by- $n$ and is called a **row vector**.
 
 ## Column Vectors
 
@@ -146,7 +146,7 @@ For the matrix addition of two matrices of equal dimension — often called **el
 
 Here’s a look at adding two matrices of equal dimension:
 
-![](./assets/add.png)
+<img src="./assets/add.png" width="600" />
 
 <br>
 
@@ -158,7 +158,7 @@ If a matrix is multiplied by a scalar, then each element is multiplied by that s
 
 For example:
 
-![](./assets/mult.png)
+<img src="./assets/mult.png" width="400" />
 
 <br>
 
@@ -168,11 +168,11 @@ Matrix division by a scalar is defined similarly.
 
 **Matrix multiplication** is only defined when the left matrix has the same number of columns as the right matrix has rows.
 
-Suppose we have an $m$-by-$n$ matrix, $\mathbf{A}$, and an $i$-by-$j$ matrix, $\mathbf{B}$. Matrix multiplication will only be defined if $n=i$, which will result in a matrix of $m$-by- $j$.
+Suppose we have an $m$-by- $n$ matrix, $\mathbf{A}$, and an $i$-by- $j$ matrix, $\mathbf{B}$. Matrix multiplication will only be defined if $n=i$, which will result in a matrix of $m$-by- $j$.
 
 Thinking about matrices in this way demonstrates that matrices can represent linear equations.
 
-Here’s how we might represent matrix multiplication as a formula. For $\mathbf{X}=\mathbf{A}\mathbf{B}$ where $\mathbf{A}$ has $n$ columns, the $i$th row and $j$th column of $\mathbf{X}$ are given as:
+Here’s how we might represent matrix multiplication as a formula. For $\mathbf{X}=\mathbf{A}\mathbf{B}$ where $\mathbf{A}$ has $n$ columns, the $i$ th row and $j$ th column of $\mathbf{X}$ are given as:
 
 $$
 \mathbf{X_{ij}}=\displaystyle\sum_{k=1}^n A_{ik}B_{kj}= A_{i1}B_{1j}+A_{i2}B_{2j}+ ...+ A_{in}B_{nj}
@@ -188,12 +188,15 @@ Here are our two equations: $y_1=2x+3$ and $y_ 2=4x+5$.
 
 We want to evaluate both equations given $x=5$, so we should get $2×5+3=13$ and $4×5+5=25$. We’ll construct a matrix for the coefficients: a 2-by-2 matrix will hold $[2 \quad 3]$ in Row 1 and $[4 \quad 5]$ in Row 2.
 
-The column vector will be the same as before: our desired $x=5$, along with the constant
- $\begin{bmatrix}1\cr 5\end{bmatrix}$.
+The column vector will be the same as before, our desired $x=5$, along with the constant: 
+
+$$
+\begin{bmatrix}1\cr 5\end{bmatrix}
+$$
  
 Let’s visualize this:
 
-![](./assets/dot.png)
+<img src="./assets/dot.png" width="300" />
 
 <br>
 
@@ -219,7 +222,7 @@ $$
 
 A common use of matrices is storing the coefficients of mathematical formulas. Let’s see what this looks like in a general sense, using the last multiplication as a reference:
 
-![](./assets/dot2.png)
+<img src="./assets/dot2.png" width="300" />
 
 <br>
 
@@ -231,14 +234,114 @@ This is a new way of thinking about matrices. Instead of just storing data point
 
 - $\mathbf{n+1}$: Number of features/coefficients (including the bias).
 
-In this case, we have an $m$-by-$(n+1)$ matrix of coefficients, $\mathbf{A}$ (the $+1$ includes the one constant for the bias), an 
-$(n+1)$-by-$1$ column vector of $n$ variable values, $\mathbf{x}$ (again, $+1$ for the one constant), and an $m$-by-$1$ column vector, $\mathbf{b}$, of one result per equation. The linear algebra equation for this looks like:
+In this case, we have an $m$-by- $(n+1)$ matrix of coefficients, $\mathbf{A}$ (the $+1$ includes the one constant for the bias), an 
+$(n+1)$-by- $1$ column vector of $n$ variable values, $\mathbf{x}$ (again, $+1$ for the one constant), and an $m$-by- $1$ column vector, $\mathbf{b}$, of one result per equation. The linear algebra equation for this looks like:
 
 $\mathbf{Ax}=\mathbf{B}$
 
 Note that our predicted data points have the independent variable values from the $\mathbf{x}$ column vector and the corresponding predicted $y$ values from the $\mathbf{b}$ column vector. If we were predicting the results of multiple variables, the $\mathbf{b}$ could be a matrix.
 
 Make sure you understand how $m$ and $n$ relate to the figure. Trace through the two dot products again and visualize the linear equations being computed algebraically. Can you extend it to three equations? Can you figure out how to have it make predictions for multiple data points? How might you expand our notion of matrix multiplication to do this?
+
+---
+# **Recap of Matrices**
+
+### **What is a Matrix?**
+A **matrix** is a rectangular array of numbers arranged in rows and columns. It is typically represented as:
+
+$$
+M = \begin{bmatrix}
+m_{1,1} & m_{1,2} & \dots & m_{1,n} \\
+m_{2,1} & m_{2,2} & \dots & m_{2,n} \\
+\vdots & \vdots & \ddots & \vdots \\
+m_{m,1} & m_{m,2} & \dots & m_{m,n}
+\end{bmatrix}
+$$
+
+where:
+- $M$ is an $m \times n$ matrix with $m$ rows and $n$ columns.
+- $m_{i,j}$ represents the element in the $i$-th row and $j$-th column.
+
+### **Use Cases of Matrices in Data Science**
+Matrices play a fundamental role in data science and machine learning. Some key applications include:
+
+1. **Dataset Representation**:
+   - Datasets in machine learning are often stored as matrices, where **rows** represent samples and **columns** represent features.
+   
+2. **Linear Algebra Operations**:
+   - Matrices allow operations such as transformations, rotations, and projections in high-dimensional space.
+   
+3. **Principal Component Analysis (PCA)**:
+   - PCA uses matrix decompositions (such as eigenvalues and eigenvectors) to reduce dimensionality and improve efficiency.
+   
+4. **Linear Regression**:
+   - The normal equation in **Ordinary Least Squares (OLS)** regression is solved using matrix operations:
+   
+   
+   $\beta$ = (X^T X)^{-1} X^T y
+   
+   
+5. **Neural Networks**:
+   - Weights and activations in deep learning models are represented as matrices, and forward/backpropagation relies on matrix multiplications.
+   
+6. **Computer Vision**:
+   - Images are stored as matrices of pixel values, enabling transformations like edge detection and convolutional filtering.
+   
+7. **Recommendation Systems**:
+   - Matrices are used in collaborative filtering techniques like Singular Value Decomposition (SVD) to predict user preferences.
+
+---
+
+## Matrix Operations in Python
+
+1. Creating a Matrix
+```python
+import numpy as np
+
+M = np.array([[1, 2], [3, 4]])
+print("Matrix M:\n", M)
+
+```
+
+2. Matrix Addition and Subtraction
+```python
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+print("Matrix Addition:\n", A + B)
+print("Matrix Subtraction:\n", A - B)
+
+
+```
+
+3. Scalar Multiplication: Multiply each element by a scalar
+```python
+scalar = 2
+print("Scalar Multiplication:\n", scalar * A)
+
+```
+
+4. Matrix Multiplication
+
+It is the dot product of matrices (not element-wise multiplication):
+
+```python
+A = np.array([[1, 2], [3, 4]])
+B = np.array([[5, 6], [7, 8]])
+
+C = np.dot(A, B)  # or A @ B
+print(f"Matrix Multiplication:\n {C}")
+```
+
+5. Matrix Transpose
+
+The transpose of a matrix swaps its rows and columns
+
+```python
+A = np.array([[1, 2, 3], [4, 5, 6]])
+print(f"Transpose of A: {A.T}") # NumPy .T called on a matrix will transpose it
+
+```
 
 ## Wrap up
 
