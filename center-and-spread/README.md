@@ -392,27 +392,19 @@ Variance and standard deviation are two important statistical measures that desc
 
 #### Population Variance
 
-$$
-\sigma^2 = \frac{\sum (x_i - \mu)^2}{N}
-$$
+$$\sigma^2 = \frac{\sum (x_i - \mu)^2}{N}$$
 
 #### Sample Variance
 
-$$
-s^2 = \frac{\sum (x_i - \bar{x})^2}{n-1}
-$$
+$$s^2 = \frac{\sum (x_i - \bar{x})^2}{n-1}$$
 
 #### Population Standard Deviation
 
-$$
-\sigma = \sqrt{\frac{\sum (x_i - \mu)^2}{N}}
-$$
+$$\sigma = \sqrt{\frac{\sum (x_i - \mu)^2}{N}}$$
 
 #### Sample Standard Deviation
 
-$$
-s = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}
-$$
+$$s = \sqrt{\frac{\sum (x_i - \bar{x})^2}{n-1}}$$
 
 Where:
 - $x_i$ represents each individual data point.
